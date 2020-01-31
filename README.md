@@ -18,3 +18,6 @@ logs are written to /aredndata
 
 ## TODO
 * Log GPS acquire/loss in system.log
+* Move various code values to config
+* Hard to distinguish lack of packets from ethernet disconnect from ssh_thread perspective
+* Coorelation of sniffed packets and GPS data is performed in python code, subject to errors due to buffering of packets on lagged ssh connection. Could do this corelation by GPS vs tcpdump time, but then would need to keep track of that
