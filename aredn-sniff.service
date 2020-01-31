@@ -1,0 +1,11 @@
+[Unit]
+Description="AREDN beacon sniffer"
+
+[Service]
+WorkingDirectory=%h/aredn-sniff
+ExecStart=/usr/bin/python3 entry.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=default.target
