@@ -5,7 +5,7 @@ It will connect to a config specified aredn node, configure the wifi interface f
 Stations are identified from their beacon packets + mac address.
 Location is determined thourgh an GPS NEMA stream
 
-See [deploy.md]() for deploy instructions
+See [DEPLOY.md]() for deploy instructions
 
 ## Configuration
 Edit config.py 
